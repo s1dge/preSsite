@@ -1,0 +1,128 @@
+body{
+    background-color: #F7F7F7;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #E4E4E4;
+    border-color: #E4E4E4;
+}
+
+section{
+    width: auto;
+    height: 1100px;
+    margin-bottom: 10px;
+}
+
+.main-content{
+
+}
+.h1pn h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.logoimg{
+    width:85px;
+    height:125px;
+    float:left;
+    padding:12px 0;
+    margin-left:12px;
+    margin-right:12px;
+    transition-duration: 0.4s;
+}
+
+.logoimg:hover{
+    filter: grayscale(25%);
+}
+.header{
+    background-color: #F7F7F7;
+    width: auto;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: block;
+    background-color: #BBBBBB;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+}
+.footer:hover{
+    background-color: #AAAAAA;
+    transition-duration: 0.4s;
+}
+
+.errormessage{
+    padding: 421px;
+    transition-duration: 0.4s;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+.errormessage:hover{
+    background-color: #BBBBBB;
+    color: white;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapBloco1Ind{
+    padding-top: 300px;
+}
+
+@media screen and (max-width: 600px){
+    .logoimg {float: none;}
+    .header {height: 500px;}
+}
+
+/*#testborder{
+    border: 2px solid red;
+}
+*/
+
+.bloco1Ind{
+    height: 500px;
+    width: auto;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
+}
+.bloco1Ind:hover{
+    background-color: white;
+}
+.bloco1Ind h1{
+    padding-top: 239px;
+}
+
+.bloco2Ind{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 345px;
+    width: auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.selector {
+    word-wrap: break-word;      
+    white-space: -moz-pre-wrap; 
+    white-space: pre-wrap;      
+}
+
+.pgB{
+    text-align: center;
+}
