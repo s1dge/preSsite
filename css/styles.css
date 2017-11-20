@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p, a, small{
+    font-family: 'Roboto', sans-serif;
+}
+
+div-test{
+    border: 2px solid red;
+}
+.caixa1Index{
+    padding-top: 45px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.caixa1Index h4{
+    color: #777777;
+}
+.caixa2Index{
+    overflow: hidden;
+    height: 600px;
+    margin-bottom: 15px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.fw-100 { font-weight: 100; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }

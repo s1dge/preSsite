@@ -1,0 +1,22 @@
+.footerC{
+    margin-top: 15px;
+    background-color: #414141;
+    color: white;
+    width: auto;
+    height: 200px;
+}
+
+ul.footerlist{
+    list-style-type: none;
+    color: white;
+}
+
+ul.footerlist li a{
+    text-decoration: none;
+    color: #D1D1D1;
+}
+
+ul.footerlist li a:hover{
+    text-decoration: none;
+    color: #ADADAD;
+}
